@@ -50,8 +50,8 @@ public class LoginServlet extends HttpServlet {
 
     private ResultSet insertData(String email) {
         String url = "jdbc:postgresql://localhost:5432/work";
-        String usernameDb = "jodos";
-        String passwordDb = "jodos2006";
+        String usernameDb = "postgres";
+        String passwordDb = "justin";
 
         String sql = "SELECT * FROM  users where email=? ";
         try {

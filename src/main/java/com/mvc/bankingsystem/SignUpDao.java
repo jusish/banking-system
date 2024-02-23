@@ -4,8 +4,8 @@ import java.sql.*;
 
 public class SignUpDao {
     String url = "jdbc:postgresql://localhost:5432/work";
-    String username = "jodos";
-    String password = "jodos2006";
+    String username = "postgres";
+    String password = "justin";
     String sql = "SELECT * FROM  users where email=? ";
 
     public boolean checkEmail(String email) {

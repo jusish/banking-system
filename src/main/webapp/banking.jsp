@@ -111,15 +111,15 @@
 </head>
 <body>
 <div class="container">
-    <h1>Welcome <%=session.getAttribute("username") %> to Your Banking Account</h1>
+    <h1>Welcome <%=session.getAttribute("username") %> to Your Marks submission page</h1>
 
     <c:if test="${not empty amount}">
-        <h3>Your current bank amount is: <span style="color: #4CAF50;">${amount}</span></h3>
+        <h3>Your current marks  are: <span style="color: #4CAF50;">${amount}</span></h3>
     </c:if>
 
     <h2>Want to deposit?</h2>
     <form action="deposit" method="post">
-        <label for="amount">Enter Deposit Amount:</label>
+        <label for="amount">Enter Marks:</label>
         <input type="number" id="amount" name="depositAmount" required><br>
         <button type="submit">Deposit</button>
     </form>
@@ -155,7 +155,7 @@
     <form action="logout" method="post" class="logout-form">
         <button type="submit" class="logout-button">Logout</button>
     </form>
-    <p>done by @jodos</p>
+    <p>@copyright All rights Reserved for Justin</p>
 </div>
 </body>
 </html>

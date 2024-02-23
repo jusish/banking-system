@@ -12,12 +12,9 @@
         }
 
         .container {
-            justify-content: center;
-            align-items: center;
-            display: flex;
             flex-direction: column;
             max-width: 400px;
-            padding: 20px;
+            padding: 40px;
             background-color: #ffffff;
             border-radius: 5px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -32,13 +29,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
             background-color: #006585;
             color: #ffffff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             margin-top: 20px;
+            padding: 10px;
 
         }
 
@@ -65,10 +62,10 @@
 </head>
 <body>
 <div class="container">
-    <h1>Welcome to the Banking System</h1>
+    <h1>Welcome to our System</h1>
     <div>
         <a href="login.jsp" class="button">Login</a>
-        <a href="registration.jsp" class="button">Register</a>
+        <a href="signUp.jsp" class="button">Register</a>
     </div>
 
 

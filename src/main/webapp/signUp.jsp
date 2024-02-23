@@ -71,7 +71,7 @@
     <input type="email" name="email" id="email" placeholder="Email"/>
     <input type="password" name="password" id="password" placeholder="Password"/>
     <input type="number" name="age" id="age" placeholder="age"/>
-    <input type="number" name="amout" id="amount" placeholder="amount"/>
+    <input type="number" name="amount" id="amount" placeholder="amount"/>
     <select name="bankType" id="bankType">
         <option value="saving account">current account</option>
         <option value="saving account">saving account</option>

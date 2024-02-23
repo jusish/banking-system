@@ -30,8 +30,8 @@ public class WithDrawServlet extends HttpServlet {
 
     protected double withDrawAmount(String email, double changeAmount) {
         String url = "jdbc:postgresql://localhost:5432/work";
-        String usernameDb = "jodos";
-        String passwordDb = "jodos2006";
+        String usernameDb = "postgres";
+        String passwordDb = "justin";
 
         String selectQuery = "SELECT amount FROM users WHERE email = ?";
         String updateQuery = "UPDATE users SET amount = ? WHERE email = ?";
